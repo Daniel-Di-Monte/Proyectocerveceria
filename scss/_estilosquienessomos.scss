@@ -1,0 +1,24 @@
+
+/* Estilos de QuienesSomos*/
+.quienesomosmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.parrafostaff {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotogrupodetrabajo {
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 25%;
+    border: 2px solid black;
+}

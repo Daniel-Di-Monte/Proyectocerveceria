@@ -1,0 +1,114 @@
+@import "estilosindex";
+@import "estilosquienessomos";
+@import "estilosproductosyservicios";
+@import "estilosnuestrosclientes";
+@import "estiloscontacto";
+
+/*/ Estilos Generales /*/
+nav {
+    display: flex;
+    align-items: end;
+}
+
+a {
+    color: inherit;
+}
+
+nav {
+    ul {
+        li {
+            display: inline-block;
+            display: flex;
+            text-align: end;
+        }
+    }
+}
+
+.Logo {
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 250px;
+}
+
+body {
+    font-family: "Sedan SC";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E0D602;
+}
+
+footer {
+    ul {
+        li {
+            text-decoration: none;
+            list-style: none;
+            display: inline-block;
+            text-align: center;
+            text-shadow: 2px 2px 5px black, -2px -2px 5px white;
+            text-decoration: underline;
+        }
+    }
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.derechos {
+    text-shadow: 2px 2px 5px black, -2px -2px 5px white;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.colorboton {
+    color: #fff;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin: 3px;
+    border: 2px solid white;
+}
+
+.nav-link.colorboton:hover {
+    background-color: orangered;
+}
+
+.fondo-fade-linear {
+    background: linear-gradient(to bottom, #7c7801, orangered);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*/ Medias/*/
+
+@media only screen and (max-width: 990px) {
+
+    /*/media de productosyservicios/*/
+    .grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .descripcion {
+        width: 75%;
+    }
+
+    .producto {
+        width: 70%;
+    }
+
+
+    /*/media de contacto/*/
+    .formulario {
+        display: flex;
+        flex-direction: column;
+    }
+}
