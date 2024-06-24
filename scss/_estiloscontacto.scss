@@ -5,8 +5,18 @@ textarea {
 
 .formulario {
     display: inline-block;
+    padding: 20px;
 }
 
 label{
     text-decoration: underline;
+}
+
+@mixin tamañoiframe($width,$height) {
+    width: $width;
+    height: $height;
+    }
+
+iframe{
+    @include tamañoiframe(500px,400px)
 }

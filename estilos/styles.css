@@ -35,6 +35,7 @@
 .fotogrupodetrabajo {
   max-width: 800px;
   height: auto;
+  width: 90%;
   margin: 0 auto;
   display: block;
   border-radius: 25%;
@@ -79,6 +80,13 @@
   max-width: 100%;
   height: auto;
   border-radius: 5%;
+  padding: 20px;
+}
+
+.texto {
+  text-align: center;
+  padding: 50px;
+  justify-content: center;
 }
 
 /*/Estilos de contacto/*/
@@ -88,13 +96,40 @@ textarea {
 
 .formulario {
   display: inline-block;
+  padding: 20px;
 }
 
 label {
   text-decoration: underline;
 }
 
+iframe {
+  width: 500px;
+  height: 400px;
+}
+
 /*/ Estilos Generales /*/
+.bc--boton1 {
+  background-color: orange;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.bc--boton2 {
+  background-color: blue;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.bc--boton3 {
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+
 nav {
   display: flex;
   align-items: end;
@@ -112,9 +147,7 @@ nav ul li {
 
 .Logo {
   width: 200px;
-  display: flex;
-  justify-content: flex-start;
-  border-radius: 250px;
+  border-radius: 50%;
 }
 
 body {
@@ -138,6 +171,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-top: 20px;
 }
 
 .derechos {
@@ -168,8 +202,21 @@ header {
   align-items: center;
 }
 
+.titulos {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
 /*/ Medias/*/
 @media only screen and (max-width: 990px) {
+  .Logo {
+    height: 200px;
+    padding: 50px;
+  }
+  header {
+    align-items: center;
+  }
   /*/media de productosyservicios/*/
   .grid {
     display: flex;
@@ -185,6 +232,10 @@ header {
   .formulario {
     display: flex;
     flex-direction: column;
+  }
+  .iframe {
+    width: 90%;
+    padding-top: 20px;
   }
 }
 
