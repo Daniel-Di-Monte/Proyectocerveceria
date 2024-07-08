@@ -130,6 +130,18 @@ iframe {
   margin: 10px;
 }
 
+.bc--boton1:hover {
+  color: red;
+}
+
+.bc--boton2:hover {
+  color: red;
+}
+
+.bc--boton3:hover {
+  color: red;
+}
+
 nav {
   display: flex;
   align-items: end;

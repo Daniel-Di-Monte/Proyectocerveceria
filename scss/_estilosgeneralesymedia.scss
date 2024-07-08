@@ -22,7 +22,11 @@ $colores: (
     }
 }
 
-
+@each $name, $bgcolor in $map {
+    .bc--#{$name}:hover {
+    color:red;
+    }
+}
 
 nav {
     display: flex;

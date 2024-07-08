@@ -96,18 +96,52 @@ textarea {
 
 .formulario {
   display: inline-block;
+  padding: 20px;
 }
 
 label {
   text-decoration: underline;
 }
 
-.iframe {
-  height: 600px;
-  width: 900px;
+iframe {
+  width: 500px;
+  height: 400px;
 }
 
 /*/ Estilos Generales /*/
+.bc--boton1 {
+  background-color: orange;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.bc--boton2 {
+  background-color: blue;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.bc--boton3 {
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.bc--boton1:hover {
+  color: red;
+}
+
+.bc--boton2:hover {
+  color: red;
+}
+
+.bc--boton3:hover {
+  color: red;
+}
+
 nav {
   display: flex;
   align-items: end;
